@@ -16,6 +16,7 @@
 body {
   font-family: "open sans" , sans-serif;
   font-weight: 400;
+  font-size: 0.075rem;
   line-height: 1.6;
   letter-spacing: 0;
   color: var(--font-color-base);
@@ -24,4 +25,48 @@ body {
 
 }
 
+* 
+  ::after, 
+  ::before {
+   box-sizing: border-box;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+a {
+  text-decoration: none;
+  color: var(--font-color-base);
+  
+}
+
+p {
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+/* 100% of the parent's width */
+
+img {
+  width: 100%;
+  max-width: 100%;
+  vertical-align: middle;
+  border-style: none;
+}
+
+.container {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
